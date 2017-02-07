@@ -1,5 +1,8 @@
 # run this executable to execute configure for a compile
 # installation of nginx
+# this will configure nginx's various directories
+# like where does it's log files go, access logs go,
+# conf file is, where to install it, etc
 
 ./configure --prefix=/etc/nginx \
 --user=nginx \
