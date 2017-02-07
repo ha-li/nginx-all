@@ -1,0 +1,12 @@
+Lynx is a text-only browser.
+
+To install lynx on mac os, 
+
+1 in a terminal shtell run the follwoing command:
+   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+
+2. when the above finishes, run the following:
+   brew install lynx
+
+this should install lynx to /usr/local/bin/lynx
+
