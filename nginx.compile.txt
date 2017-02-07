@@ -1,3 +1,6 @@
+# run this executable to execute configure for a compile
+# installation of nginx
+
 ./configure --prefix=/etc/nginx \
 --user=nginx \
 --group=nginx \
