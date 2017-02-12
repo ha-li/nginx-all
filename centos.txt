@@ -1,0 +1,24 @@
+Download the VirtualBox VM image of CentOS 6.0 base x86 here.
+
+http://sourceforge.net/projects/virtualboximage/files/CentOS/6.0/CentOS-6-i386.7z/download
+
+to update CentOS:
+> su -
+> yum update
+
+to install lynx
+> yum install lynx
+
+to install nano or else use vi/vim
+> yum install nano
+
+to install wget
+> yum install wget
+
+to install ssh
+> (installed by default)
+
+make a snapshot of the CentOS vm
+
+Next follow the instructions to install nginx using prebuilt packages 
+by following nginx.install.txt

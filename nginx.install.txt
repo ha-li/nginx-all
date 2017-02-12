@@ -1,0 +1,29 @@
+Using the CentOS vm image created in ./centos.txt
+
+Install Nginx using prebuild packages
+
+1. create the nginx repository file in the yum.repos.d director and then
+   add the repository configuration by adding the nginx.repo file
+>vi /etc/yum.repos.d/nginx.repo
+
+   then add the following text to nginx.repo:
+
+   [nginx]
+   name=nginx repo
+   baseurl=http://nginx.org/packages/centos/7/$basearch/
+   gpgcheck=0
+   enabled=1
+
+2. download the nginx-release package from nginx servers
+>wget http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+
+3. install teh package manager repository
+>rpm -Uvh nginx-release-centos-7-0.el7.ngx.noarch.rpm
+
+4. install nginx
+> yum install nginx
+
+5. verify your install
+> nginx -v
+     (should output)
+  nginx version: nginx/1.8.0

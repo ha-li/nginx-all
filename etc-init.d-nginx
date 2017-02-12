@@ -1,5 +1,7 @@
 #!/bin/sh
-#
+# Add this script to /etc/init.d to auto start nginx each time
+# linux starts up
+# 
 # nginx - this script starts and stops the nginx daemin
 #
 # chkconfig:   - 85 15
